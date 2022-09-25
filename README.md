@@ -1,4 +1,7 @@
-This is a side project that was inspired from league of legend
+semi large reponsiveness {
+as from 1120px width
+}
 
-it has for objective to test to owner's ability to create a completely operational for 
-using HTML, CSS and Javascript
+mobile reponsiveness{
+as from 700width
+}
