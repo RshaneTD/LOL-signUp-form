@@ -1,58 +1,72 @@
-
-
+html{
+    font-family: 'Lato', sans-serif;
+}
+//setting the background and the display for the content
 .container{
     background-image: url('/img/Shadow-Isles.\ jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 100vw;
     height: 100vh;
 }
 
+//setting the width and height for the content El
 .content{
-    background-color: red;
     display: flex;
     flex-flow: row nowrap;
+
     width: 65vw;
     height: 80vh;
 }
 
+//setting the width and length for the image container
 .left{
-    background-color: blueviolet;
     width: 40vw;
     height: 100%;
 }
 
+//setting jinx image
 .jinx{
     background-image: url('/img/jinx.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
     width: 100%;
     height: 100%;
 }
 
+//setting the container for the right side
 .right{
-    background-color: blue;
+   background:#cddbeb;
     display: flex;
     align-items: center;
     flex-direction: column ;
+
     width: 40vw;
     height: 100%;
 }
+
+//setting the width and length for the container of the logo and 'sign-in'
 .right-head{
-    background-color: purple;
     display: flex;
     align-items: center;
     flex-direction: column;
+
     width: 40vw;
     height: 40vh;
 }
 
+//setting the logo parameters
 .logo{
+    
     display: flex;
     justify-content: center;
+
     padding-top: 3rem;
     padding-bottom: 1rem;
     img{
@@ -60,36 +74,66 @@
     }
 }
 
+//setting the 'Sign-in" parameters
 .text{
-    font-family:"Lato", sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
 }
 
-
+//setting the parameters for the form container
 .form-container{
-    padding-top:rem ;
-    background-color: yellow;
+    padding-top:1rem ;
     height: 70vh;
 }
 
+//setting the parameters for the form
 .form{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     gap: 1.25rem;
+
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
 }
 
+//setting the parameters for the form input tag
 .input{
     display: flex;
     flex-flow: column wrap;
+
     width: 40%;
 }
 
+//setting the parameters for the form label tog
 label{
     font-family: 'Lato', arial;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 20px;
+    
     padding-bottom: 0.3rem;
 }
+
+//setting the parameters for the button container
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    padding-top: 1rem;
+
+    //setting the parameter for the submit btn
+    button{
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: white;
+
+        background-color: #153D9E;
+        width: 35%;
+        height: 55%;
+        border: none;
+        border-radius: 99px;
+    }
+}
+
